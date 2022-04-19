@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-bottom: 300px;
+    padding-top: 40px;
+    
+}
+
+/* HEADER */
+header {
+    height: 55px;
+    display: flex; /*FLEX BOX DENTRO DE FLEXBOX */
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #EFEFEF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(204, 204, 204) ;
+
+}
+
+.left-section{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.listras{
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.logo{
+    height: 24px;
+}
+
+.middle-section {
+   
+    flex: 1;
+    margin: 0 35px 0 70px;
+    max-width: 500px; /*até quando vai aumentar o tamanho da div */
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 1;
+    margin-left: 5px;
+    height: 33px;
+    font-size: 15px;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.362);
+    border: 1px solid rgb(180, 179, 179);
+    padding-left: 10px;
+    width: 0;
+}
+
+.lupa-icon{
+    width: 40px;
+    height: 35px;
+}
+
+.lupa{
+    height: 20px;
+}
+
+.speaker-icon{
+    justify-content: end;
+    height: 35px;
+    margin-left: 7px;
+    border-radius: 50%;
+    border: none; 
+    
+}
+
+.speaker{
+    height: 25px;
+    border-radius: 50%;
+}
+
+
+
+.right-section {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 0;
+    flex-shrink: 0;
+}
+
+.icon{
+    border: none;
+}
+.camera{
+    height: 30px;
+}
+.app{
+    height: 30px
+}
+
+.sino{
+    height: 30px;
+}
+.g{
+    height:30px;
+}
+
+/*MAIN*/
+
+
+/*left-buttons */
+#left-buttons{
+width: 220px;
+height: 600px;
+position: fixed;
+left:0;
+top:80px;
+bottom:0;
+
+}
+
+.first-step{
+border-bottom: 0.7px solid rgba(0, 0, 0, 0.21);
+}
+
+
+.second-step{
+border-bottom: 0.7px solid rgba(0, 0, 0, 0.21);    
+}
+
+.button{
+display: flex;
+width: 170px;
+height: 37px;
+width: 220px;
+padding-top: 5px;
+flex-direction: row;
+align-items: center;
+
+}
+
+.button img{
+height: 24px;
+padding-left: 20px;
+width: 30px;
+
+}
+
+.img-left-button-subscription{
+height: 24px;
+
+width: 30px;
+border-radius: 15px;
+}
+
+.third-step-title{
+padding-left: 20px;
+font-size: 18px;
+opacity: 0.8;
+padding-top: 5px;
+
+}
+
+.text-left-button{
+padding-left: 30px;
+font-weight: 450;
+
+}
+
+.button:hover{
+    background-color: rgba(128, 128, 128, 0.362);
+}
+
+
+
+
+
+/*Thumbnails-vídeos */
+.videos{
+    display: grid;
+    grid-template-columns: 350px 350px 350px ;
+    grid-template-rows: 300px 300px;
+    row-gap: 60px;
+    margin-left: 180px;
+    margin-top: -20px;
+}
+
+
+.card{
+    width: 325px;
+    height: 300px;
+    margin-left: 20%; /*Alinhamento para visualização */
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.thumbnail img {
+    width: 100%; 
+    height: 100%;
+    margin-bottom: 15px;
+    
+}
+
+.profile-picture{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    padding: 0;
+}
+
+.profile-picture img {
+    
+    margin: 0px 5px 0 0 ;
+    border-radius: 50%;
+    height: 45px;
+    object-fit: cover;
+    
+}
+
+.info {
+    width:250px;
+    display: inline-block;
+    margin: 0px 20px 0 0;
+}
+
+.info p {
+    margin-bottom: 7px;
+    
+}
+
+.title-video{
+    margin: 0;
+    display: block;
+    font-weight: bold;
+}
+
